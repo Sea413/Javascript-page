@@ -8,126 +8,195 @@
     <title>JS Wiki Page</title>
   </head>
   <body>
-<div class="jumbotron">
-    <div class="container">
-      <div>
-        <p class="clickable">Javascript</p>
-        <div id="javascript-hide">
+
+  <div class="container">
+    <div class="jumbotron">
+        <h1>Flash Cards</h1>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+          <li data-target="#myCarousel" data-slide-to="8"></li>
+          <li data-target="#myCarousel" data-slide-to="9"></li>
+          <li data-target="#myCarousel" data-slide-to="10"></li>
+          <li data-target="#myCarousel" data-slide-to="11"></li>
+          <li data-target="#myCarousel" data-slide-to="12"></li>
+          <li data-target="#myCarousel" data-slide-to="13"></li>
+          <li data-target="#myCarousel" data-slide-to="14"></li>
+          <li data-target="#myCarousel" data-slide-to="15"></li>
+          <li data-target="#myCarousel" data-slide-to="16"></li>
+          <li data-target="#myCarousel" data-slide-to="17"></li>
+          <li data-target="#myCarousel" data-slide-to="18"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+              <h3 class="clickable">Javascript</h3>
+              <div id="javascript">
+                <p>An object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
+              </div>
+          </div>
+          <div class="item">
+              <h3 class="clickable">Modulo</h3>
+              <!-- <div id="modulo-hide">
+              </div> -->
+              <div id="modulo">
+                <p>In computing, the modulo operation finds the remainder after division of one number by another. Given two positive numbers, a and n, a modulo n is the remainder of the Euclidean division of a by n.</p>
+              </div>
+            </div>
+        <div class="item">
+          <h3 class="clickable">Operators</h3>
+          <!-- <div id="operators-hide">
+          </div> -->
+          <div id="operators">
+            <p>The functions fall into categories that perform object comparisons, logical operations, mathematical operations, sequence operations, and abstract type tests. The object comparison functions are useful for all objects, and are named after the rich comparison operators they support: operator.</p>
+          </div>
         </div>
-        <div id="javascript-show">
-          <p>An object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Modulo</p>
-        <div id="modulo-hide">
-        </div>
-        <div id="modulo-show">
-          <p>In computing, the modulo operation finds the remainder after division of one number by another. Given two positive numbers, a and n, a modulo n is the remainder of the Euclidean division of a by n.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Operators</p>
-        <div id="operators">
-          <p>The functions fall into categories that perform object comparisons, logical operations, mathematical operations, sequence operations, and abstract type tests. The object comparison functions are useful for all objects, and are named after the rich comparison operators they support: operator.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">NaN</p>
-        <div id="nan">
-          <p>In computing, NaN, standing for not a number, is a numeric data type value representing an undefined or unrepresentable value, especially in floating-point calculations. Systematic use of NaNs was introduced by the IEEE 754 floating-point standard in 1985, along with the representation of other non-finite quantities like infinities.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Variable naming conventions
-    </p>
-        <div id="variable">
-          <p>In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">+=</p>
-        <div id="plusEqual">
-          <p>Plus and minus signs are often used in tree view on a computer screen to show if a folder is collapsed or not. In some programming languages, concatenation of strings is written: "a" + "b" which equals "ab", although this usage is questioned by some for violating commutativity, a property addition is expected to have.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">function</p>
-        <div id="function">
-          <p>A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses (). Function names can contain letters, digits, underscores, and dollar signs (same rules as variables). The parentheses may include parameter names separated by commas: (parameter1,  parameter2, ...) The code to be executed, by the function, is placed inside curly brackets: {}</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Method</p>
-        <div id="method">
-          <p>JavaScript methods are the actions that can be performed on objects. A JavaScript method is a property containing a function definition.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Argument to a method</p>
-        <div id="argument">
-          <p>Anything between the parenthesis that gets evaluated ny itself.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">String</p>
-        <div id="string">
-          <p>In computer programming, a string is traditionally a sequence of characters, either as a literal constant or as some kind of variable. The latter may allow its elements to be mutated and the length changed, or it may be fixed (after creation).</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Chaining Method</p>
-        <div id="chaining">
-          <p>A method following a method for cascading results.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Escape</p>
-        <div id="escape">
-          <p>Encodes special characters within a URl to be browser readable</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Alert</p>
-        <div id="alert">
-          <p>Is a dialog box that appears without userr interaction.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Commenting code</p>
-        <div id="comment">
-          <p>In computer programming, a comment is a programmer-readable annotation in the source code of a computer program. They are added with the purpose of making the source code easier to understand, and are generally ignored by compilers and interpreters.[1][2] The syntax of comments in various programming languages varies considerably.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Return</p>
-        <div id="return">
-          <p>The return statement ends function execution and specifies a value to be returned to the function caller.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Parameter
-    </p>
-        <div id="parameter">
-          <p> Computing a parameter is defined as "a reference or value that is passed to a function, procedure, subroutine, command, or program".[1] For example, a program may be passed the name of a file on which it should perform some function.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Booleans</p>
-        <div id="boolean">
-          <p>True and false statements.</p>
-        </div>
-      </div>
-      <div>
-        <p class="clickable">Undefined</p>
-        <div id="undefined">
-          <p>In computing (particularly, in programming), undefined value is a condition where an expression does not have a correct value, although it is syntactically correct. An undefined value must not be confused with empty string, boolean "false" or other "empty" (but defined) values. Depending on circumstances, evaluation to an undefined value may lead to exception or undefined behaviour, but in some programming languages undefined values can occur during a normal, predictable course of program execution.</p>
-        </div>
+          <div class="item">
+            <h3 class="clickable">NaN</h3>
+            <!-- <div id="nan-hide">
+            </div> -->
+            <div id="nan">
+              <p>In computing, NaN, standing for not a number, is a numeric data type value representing an undefined or unrepresentable value, especially in floating-point calculations. Systematic use of NaNs was introduced by the IEEE 754 floating-point standard in 1985, along with the representation of other non-finite quantities like infinities.</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Variable naming conventions
+          </h3>
+          <!-- <div id="variable-hide">
+          </div> -->
+            <div id="variable">
+              <p>In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">+=</h3>
+            <!-- <div id="plusEqual-hide">
+            </div> -->
+            <div id="plusEqual">
+              <p>Plus and minus signs are often used in tree view on a computer screen to show if a folder is collapsed or not. In some programming languages, concatenation of strings is written: "a" + "b" which equals "ab", although this usage is questioned by some for violating commutativity, a property addition is expected to have.</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Function</h3>
+            <!-- <div id="function-hide">
+            </div> -->
+            <div id="function">
+              <p>A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses (). Function names can contain letters, digits, underscores, and dollar signs (same rules as variables). The parentheses may include parameter names separated by commas: (parameter1,  parameter2, ...) The code to be executed, by the function, is placed inside curly brackets: {}</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Method</h3>
+            <!-- <div id="method-hide">
+            </div> -->
+            <div id="method">
+              <p>JavaScript methods are the actions that can be performed on objects. A JavaScript method is a property containing a function definition.</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Argument to a method</h3>
+            <!-- <div id="argument-hide">
+            </div> -->
+            <div id="argument">
+              <p>Anything between the parenthesis that gets evaluated ny itself.</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">String</h3>
+            <!-- <div id="string-hide">
+            </div> -->
+            <div id="string">
+              <p>In computer programming, a string is traditionally a sequence of characters, either as a literal constant or as some kind of variable. The latter may allow its elements to be mutated and the length changed, or it may be fixed (after creation).</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Chaining Method</h3>
+            <!-- <div id="chaining-hide">
+            </div> -->
+            <div id="chaining">
+              <p>A method following a method for cascading results.</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Escape</h3>
+            <!-- <div id="escape-hide">
+            </div> -->
+            <div id="escape">
+              <p>Encodes special characters within a URl to be browser readable</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Alert</h3>
+            <!-- <div id="alert-hide">
+            </div> -->
+            <div id="alert">
+              <p>Is a dialog box that appears without userr interaction.</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Commenting code</h3>
+            <!-- <div id="comment-hide">
+            </div> -->
+            <div id="comment">
+              <p>In computer programming, a comment is a programmer-readable annotation in the source code of a computer program. They are added with the purpose of making the source code easier to understand, and are generally ignored by compilers and interpreters.[1][2] The syntax of comments in various programming languages varies considerably.</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Parameter</h3>
+            <!-- <div id="parameter-hide">
+            </div> -->
+            <div id="parameter">
+              <p> Computing a parameter is defined as "a reference or value that is passed to a function, procedure, subroutine, command, or program".[1] For example, a program may be passed the name of a file on which it should perform some function.</p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Return</h3>
+            <!-- <div id="return-hide">
+            </div> -->
+            <div id="return">
+              <p>The return statement ends function execution and specifies a value to be returned to the function caller.</p>
+            </div>
+          </div>
+            <div class="item">
+              <h3 class="clickable">Booleans</h3>
+              <!-- <div id="boolean-hide">
+              </div> -->
+              <div id="boolean">
+                <p>True and false statements.</p>
+              </div>
+          </div>
+          <div class="item">
+            <h3 class="clickable">Undefined</h3>
+            <!-- <div id="undefined-hide">
+            </div> -->
+            <div id="undefined">
+              <p>In computing (particularly, in programming), undefined value is a condition where an expression does not have a correct value, although it is syntactically correct. An undefined value must not be confused with empty string, boolean "false" or other "empty" (but defined) values. Depending on circumstances, evaluation to an undefined value may lead to exception or undefined behaviour, but in some programming languages undefined values can occur during a normal, predictable course of program execution.</p>
+            </div>
+          </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
+    </div>
   </div>
-    <script src="js/bootstrap.min.js"></script>
+
     <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

@@ -1,8 +1,22 @@
 $(document).ready(function(){
 $(".clickable").click(function(){
-  $("#javascript-show").toggle();
-  $("#javascript-hide").toggle();
-  $("#modulo-show").toggle();
-  $("#modulo-hide").toggle();
-  });
+  $("#javascript").toggle();
+  $("#modulo").toggle();
+  $("#return").toggle();
+  $("#operators").toggle();
+  $("#plusEqual").toggle();
+  $("#nan").toggle();
+  $("#function").toggle();
+  $("#method").toggle();
+  $("#argument").toggle();
+  $("#string").toggle();
+  $("#chaining").toggle();
+  $("#escape").toggle();
+  $("#alert").toggle();
+  $("#comment").toggle();
+  $("#boolean").toggle();
+  $("#undefined").toggle();
+  $("#parameter").toggle();
+  $("#variable").toggle();
+});
 });
